@@ -1,5 +1,5 @@
 .hampster {
-  border: 10px solid rgb(128, 30, 0);
+  border: 10px solid rgb(184, 192, 69);
   padding: 10px;
   display:block;
   margin:auto;
@@ -12,6 +12,7 @@
   box-sizing: border-box;
   float:left; 
   color: yellow;
+  background-color: black;
 }
 
 .dog {
@@ -28,6 +29,11 @@
   box-sizing: border-box;
   float: left;
   color: red;
+
+}
+.dog ul, h1{
+  color: rgb(10, 10, 10);
+  text-align: left;
 }
 .rabbit {
   border: 10px solid rgb(128, 30, 0);
@@ -42,6 +48,7 @@
   text-align: center;
   box-sizing: border-box;
   float: left;
+  background-color: rgb(77, 38, 184);
 }
 .cat {
   border: 10px solid rgb(128, 30, 0);
@@ -56,7 +63,31 @@
   text-align: center;
   box-sizing: border-box;
   float: left;
+  background-color: black;
+}
+.cat h1{
+  text-align: right;
 }
 body {
   color:blue
 }
+img{
+  width: 100%;
+  height: 300px;
+  border: blightblue;
+}
+
+h1 {
+  text-align: center;
+  color: purple;
+}
+#rabbit1 {
+color: yellowgreen;
+}
+#dog1 {
+
+}
+.ah{
+  color: aqua;
+}
+
